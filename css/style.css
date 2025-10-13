@@ -24,60 +24,6 @@ html::-webkit-scrollbar-thumb {
   --text-color:#020307;
   --bg-color:#fff;
 }
-/* Movies */
-/* .heading {
-  font-weight: 500;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--main-color);
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-/* .movies-container {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px,auto));
-  gap: 1rem;
-  margin-top: 2rem;
-} */
-/* .box .box-img {
-  width: 100%;
-  height: 270px;
-} */
-/* .box-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-  transition: 0.2s all linear;
-}
-.box-img img:hover {
-  transform:translateY(-10px);
-} */
-/* .box h3 {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--main-color);
-} */
-/* .box span {
-  font-size: 13px;
-} */
-/* Movies */
-/* Coming Soon */
-
-.coming-container {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px,auto));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-/* Coming Soon */
 
 /* news */
 .news {
@@ -182,30 +128,8 @@ html::-webkit-scrollbar-thumb {
 }
 /* copy */
 
-/* Resbonsive */
-@media (max-width:1080px) {
-  .home-text {
-    padding: 0 100px;
-  }
-}
-@media (max-width:991px) {
- }
-  section{
-    padding: 50px 4%;
-  }
-  .home-text {
-    padding: 0 4%;
-  }
-  .home-text h2 {
-    font-size: 3rem;
-  }
-
 @media (max-width:774px) {
-  
-  
-  .home-text h2 {
-    font-size: 2.4rem;
-  }
+
   .btn {
     padding: 0.6rem 1.2rem;
   }
@@ -221,20 +145,3 @@ html::-webkit-scrollbar-thumb {
     display: none;
   }
 }
-@media (max-width: 370px) {
-  
-  .home-text h2 {
-    font-size: 1.7rem;
-  }
-
-  .box .box-img img {
-    height: 240px;
-  }
-}
-@media (max-width: 300px) {
-  .home-text h2 {
-    font-size: 1.2rem;
-  }
-}
-
-/* Resbonsive */
