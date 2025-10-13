@@ -1,11 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  scroll-padding-top: 2rem;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -23,48 +16,4 @@ html::-webkit-scrollbar-thumb {
   --main-color:#ff2c1f;
   --text-color:#020307;
   --bg-color:#fff;
-}
-
-
-.social-icons {
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
-}
-.social-icons a {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  font-size: 2rem;
-  text-align: center;
-  line-height: 55px;
-  background-color: var(--bg-color);
-  color: var(--main-color);
-  border: 4px solid rgb(2, 3, 7, 0.4) ;
-  transition: 0.2s all linear;
-}
-.social-icons a:hover {
-  background-color: var(--main-color);
-  color: var(--bg-color);
-}
-/* footer */
-/* copy */
-.copy {
-  text-align: center;
-  color: var(--bg-color);
-  font-size: 1.1rem;
-}
-.copy span {
-  color: var(--main-color);
-  cursor: pointer;
-}
-/* copy */
-
-@media (max-width: 472px) {
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 1rem;
-  }
-
 }
