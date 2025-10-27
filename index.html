@@ -20,47 +20,135 @@
   </head>
   <body class="bg-[#020307] text-white scroll-smooth font-Poppins">
     <!--Navbar  -->
-    <header class="group fixed top-0 left-0 w-full flex items-center justify-between max-[370px]:py-[6px] max-[774px]:py-[12px] max-[991px]:py-[18px] max-[991px]:px-[4%] px-24  py-5 z-50 transition-all duration-500 ease-in-out " >
-      <a href="#home" class="font-medium flex gap-1 text-lg items-center group-[.bg-white]:text-[#020307]"> <i class="fa-solid fa-film text-2xl"></i> Movies </a>
-      <div id="menu-icon" class="md:hidden" ><i class="fa-solid fa-bars group-[.bg-white]:text-black cursor-pointer text-2xl"></i></div>
+    <header
+      class="group fixed top-0 left-0 w-full flex items-center justify-between max-[370px]:py-[6px] max-[774px]:py-[12px] max-[991px]:py-[18px] max-[991px]:px-[4%] px-24 py-5 z-50 transition-all duration-500 ease-in-out"
+    >
+      <a
+        href="#home"
+        class="font-medium flex gap-1 text-lg items-center group-[.bg-white]:text-[#020307]"
+      >
+        <i class="fa-solid fa-film text-2xl"></i> Movies
+      </a>
+      <div id="menu-icon" class="md:hidden">
+        <i
+          class="fa-solid fa-bars group-[.bg-white]:text-black cursor-pointer text-2xl"
+        ></i>
+      </div>
       <!-- tablet & desktop view menu -->
       <ul class="gap-10 lg:gap-20 hidden md:flex">
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear" href="#home">Home</a></li>
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"  href="#movies">Movies</a></li>
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear" href="#coming soon">Coming Soon</a></li>
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"  href="#newsletter">Newsletter</a></li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#movies"
+            >Movies</a
+          >
+        </li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#coming soon"
+            >Coming Soon</a
+          >
+        </li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#newsletter"
+            >Newsletter</a
+          >
+        </li>
       </ul>
       <!-- Mobile view menu -->
-      <ul class="navbar  w-full flex-col gap-4 p-5 shadow-md text-center absolute top-20 left-0 bg-white transition-all duration-300 ease-in-out hidden">
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear" href="#home">Home</a></li>
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"  href="#movies">Movies</a></li>
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear" href="#coming soon">Coming Soon</a></li>
-        <li ><a class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-['']   after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"  href="#newsletter">Newsletter</a></li>
+      <ul
+        class="navbar w-full flex-col gap-4 p-5 shadow-md text-center absolute top-20 left-0 bg-white transition-all duration-300 ease-in-out hidden"
+      >
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#movies"
+            >Movies</a
+          >
+        </li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#coming soon"
+            >Coming Soon</a
+          >
+        </li>
+        <li>
+          <a
+            class="group-[.bg-white]:text-[#020307] font-medium text-lg lg:text-xl text-[#ff2c1f] relative after:bg-[#ff2c1f] hover:after:w-full after:content-[''] after:absolute after:text-[#ff2c1f] after:w-0 after:h-1 after:left-0 after:bottom-[-4px] after:transition-all after:duration-300 linear"
+            href="#newsletter"
+            >Newsletter</a
+          >
+        </li>
       </ul>
-      <a href="#" class=" bg-[#ff2c1f] text-white font-normal rounded-lg
- py-3 px-7 hover:bg-[#fa1216]">Sign In</a>
+      <a
+        href="#"
+        class="bg-[#ff2c1f] text-white font-normal rounded-lg py-3 px-7 hover:bg-[#fa1216]"
+        >Sign In</a
+      >
     </header>
     <!-- end navbar -->
     <!-- Home -->
-    <section id="home" class="home py-20 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]  w-full min-h-screen relative bg-[url(../img/home3.jpg)] bg-center bg-cover">
-      <div class="home-text absolute top-[40%] pl-[80px] max-[991px]:py-0 max-[991px]:px-[4%] max-[1080px]:py-0 max-[1080px]:px-[100px]">
+    <section
+      id="home"
+      class="home py-20 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%] w-full min-h-screen relative bg-[url(/img/home3.jpg)] bg-center bg-cover"
+    >
+      <div
+        class="home-text absolute top-[40%] pl-[80px] max-[991px]:py-0 max-[991px]:px-[4%] max-[1080px]:py-0 max-[1080px]:px-[100px]"
+      >
         <span class="font-medium text-black uppercase">Marvel Universe</span>
-        <h2 class="text-white font-bold mb-4 text-[64px] max-[991px]:text-5xl max-[774px]:text-4xl max-[370px]:text-3xl">
+        <h2
+          class="text-white font-bold mb-4 text-[64px] max-[991px]:text-5xl max-[774px]:text-4xl max-[370px]:text-3xl"
+        >
           Spider-Man<br />
           Far From Home
         </h2>
-        <a href="#" class="bg-[#ff2c1f] text-white hover:bg-[#fa1216] py-3 px-6 rounded-lg">Book Now</a>
+        <a
+          href="#"
+          class="bg-[#ff2c1f] text-white hover:bg-[#fa1216] py-3 px-6 rounded-lg"
+          >Book Now</a
+        >
       </div>
     </section>
     <!-- Home -->
     <!-- Movies -->
-    <section id="movies" class="movies py-16 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%] ">
-      <h2 class="heading font-medium text-xl uppercase border-b border-solid  border-[#ff2c1f] max-w-5xl mx-auto">Opening this Week</h2>
-      <div class="movies-container max-w-5xl mx-auto grid [grid-template-columns:repeat(auto-fit,minmax(180px,auto))]  max-[370px]:[grid-template-columns:repeat(auto-fit,minmax(140px,auto))] mt-8 gap-4">
+    <section
+      id="movies"
+      class="movies py-16 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]"
+    >
+      <h2
+        class="heading font-medium text-xl uppercase border-b border-solid border-[#ff2c1f] max-w-5xl mx-auto"
+      >
+        Opening this Week
+      </h2>
+      <div
+        class="movies-container max-w-5xl mx-auto grid [grid-template-columns:repeat(auto-fit,minmax(180px,auto))] max-[370px]:[grid-template-columns:repeat(auto-fit,minmax(140px,auto))] mt-8 gap-4"
+      >
         <!-- Box 1 -->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m1.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m1.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Venom</h3>
           <span class="text-xs">120min | Action</span>
@@ -68,7 +156,11 @@
         <!-- Box 2 -->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m2.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m2.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Dunkerk</h3>
           <span class="text-xs">105min | Adventure</span>
@@ -76,15 +168,25 @@
         <!-- Box 3 -->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m3.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m3.jpg"
+              alt=""
+            />
           </div>
-          <h3 class="text-base font-medium text-[#ff2c1f]">Batman & Superman</h3>
+          <h3 class="text-base font-medium text-[#ff2c1f]">
+            Batman & Superman
+          </h3>
           <span class="text-xs">100min | Thriller</span>
         </div>
         <!-- Box 4-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m4.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m4.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">John Wick</h3>
           <span class="text-xs">120min | Adventure</span>
@@ -92,7 +194,11 @@
         <!-- Box 5-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m5.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m5.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Aquaman</h3>
           <span class="text-xs">130min | Action</span>
@@ -100,7 +206,11 @@
         <!-- Box 6-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m6.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m6.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Black Panther</h3>
           <span class="text-xs">90min | Thriller</span>
@@ -108,7 +218,11 @@
         <!-- Box 7-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m7.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m7.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Thor</h3>
           <span class="text-xs">130min | Action</span>
@@ -116,7 +230,11 @@
         <!-- Box 8-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m8.png" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m8.png"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Bumblebee</h3>
           <span class="text-xs">100min | Thriller</span>
@@ -124,7 +242,11 @@
         <!-- Box 9-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m9.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m9.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Mortal Engines</h3>
           <span class="text-xs">100min | Action</span>
@@ -132,119 +254,216 @@
         <!-- Box 10-->
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/m10.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/m10.jpg"
+              alt=""
+            />
           </div>
-          <h3 class="text-base font-medium text-[#ff2c1f]">UnderWorld Blood Wars</h3>
+          <h3 class="text-base font-medium text-[#ff2c1f]">
+            UnderWorld Blood Wars
+          </h3>
           <span class="text-xs">100min | Action</span>
         </div>
       </div>
     </section>
     <!-- Movies -->
     <!-- Coming Soon -->
-    <section id="coming soon" class="coming py-16 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]">
-      <h2 class="heading font-medium text-xl uppercase border-b border-solid  border-[#ff2c1f] max-w-5xl mx-auto">Coming Soon</h2>
-      <div class="coming-container  max-w-5xl mx-auto grid [grid-template-columns:repeat(auto-fit,minmax(180px,auto))]  max-[370px]:[grid-template-columns:repeat(auto-fit,minmax(140px,auto))] mt-8 gap-4">
+    <section
+      id="coming soon"
+      class="coming py-16 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]"
+    >
+      <h2
+        class="heading font-medium text-xl uppercase border-b border-solid border-[#ff2c1f] max-w-5xl mx-auto"
+      >
+        Coming Soon
+      </h2>
+      <div
+        class="coming-container max-w-5xl mx-auto grid [grid-template-columns:repeat(auto-fit,minmax(180px,auto))] max-[370px]:[grid-template-columns:repeat(auto-fit,minmax(140px,auto))] mt-8 gap-4"
+      >
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming1.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming1.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Joney English</h3>
           <span class="text-sx">80min | Comedy</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming2.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming2.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">WarCrafet</h3>
           <span class="text-sx">120min | Action</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming3.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming3.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Rampage</h3>
           <span class="text-sx">108min | Adventure</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming4.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming4.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Airon Lady</h3>
           <span class="text-sx">120min | Comedy</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming5.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming5.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Justice League</h3>
           <span class="text-sx">120min | Adventure</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming6.jpeg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming6.jpeg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Doctor Strange</h3>
           <span class="text-sx">120min | Adventure</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming7.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming7.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Captain Marvel</h3>
           <span class="text-sx">120min | Adventure</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming8.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming8.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Black Widow</h3>
           <span class="text-sx">90min | Action</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming9.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming9.jpg"
+              alt=""
+            />
           </div>
           <h3 class="text-base font-medium text-[#ff2c1f]">Ant Man</h3>
           <span class="text-sx">110min | Adventure</span>
         </div>
         <div class="box">
           <div class="box-img w-full h-[270px]">
-            <img class="w-full  h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]" src="img/coming10.jpg" alt="" />
+            <img
+              class="w-full h-full max-[370px]:h-[240px] cursor-pointer transition-all duration-200 object-cover ease-linear hover:translate-y-[-10px]"
+              src="img/coming10.jpg"
+              alt=""
+            />
           </div>
-          <h3 class="text-base font-medium text-[#ff2c1f]">Guardiance Of The Galaxy</h3>
+          <h3 class="text-base font-medium text-[#ff2c1f]">
+            Guardiance Of The Galaxy
+          </h3>
           <span class="text-sx">120min | Adventure</span>
         </div>
       </div>
     </section>
     <!-- Coming Soon -->
     <!-- Newsletter -->
-    <section id="newsletter" class="news max-w-5xl mx-auto flex flex-col items-center justify-center gap-8 py-18 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]">
+    <section
+      id="newsletter"
+      class="news max-w-5xl mx-auto flex flex-col items-center justify-center gap-8 py-18 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]"
+    >
       <h2 class="text-3xl font-semibold text-center">
         Subscribe To Get <br />
         Newsletter
       </h2>
-      <form class="flex items-center p-2 bg-white rounded-lg max-[375px]:max-w-[350px]  max-[430px]:max-w-[400px] max-[320px]:max-w-[300px]">
-        <input class="w-[300px] border-none outline-none text-black placeholder:text-sm placeholder:font-normal" type="email" placeholder="Enter Email..." id="email"/>
-        <input type="submit" value="Subscribe" class="border-none outline-none cursor-pointer bg-[#ff2c1f] text-white rounded-lg font-medium uppercase py-3 px-6 hover:bg-[#fa1216] max-[774px]:py-2 max-[774px]:px-5 max-[320px]:px-1 max-[320px]:text-xs" />
+      <form
+        class="flex items-center p-2 bg-white rounded-lg max-[375px]:max-w-[350px] max-[430px]:max-w-[400px] max-[320px]:max-w-[300px]"
+      >
+        <input
+          class="w-[300px] border-none outline-none text-black placeholder:text-sm placeholder:font-normal"
+          type="email"
+          placeholder="Enter Email..."
+          id="email"
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          class="border-none outline-none cursor-pointer bg-[#ff2c1f] text-white rounded-lg font-medium uppercase py-3 px-6 hover:bg-[#fa1216] max-[774px]:py-2 max-[774px]:px-5 max-[320px]:px-1 max-[320px]:text-xs"
+        />
       </form>
     </section>
     <!-- Newsletter -->
     <!-- footer -->
-    <section class="footer flex flex-col gap-4 py-5 items-center justify-between max-w-5xl mx-auto py-18 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]">
-      <a href="index.html" class=" text-base font-medium flex items-center gap-2 text-white">
+    <section
+      class="footer flex flex-col gap-4 py-5 items-center justify-between max-w-5xl mx-auto py-18 px-6 max-[991px]:py-[50px] max-[991px]:px-[4%]"
+    >
+      <a
+        href="index.html"
+        class="text-base font-medium flex items-center gap-2 text-white"
+      >
         <i class="fa-solid fa-film text-2xl text-[#ff2c1f]"></i> Movies
       </a>
-      <div class=" flex items-center gap-2">
-        <a href="#" class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"> <i class="fa-brands fa-facebook"></i></a>
-        <a href="#" class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#" class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"><i class="fa-brands fa-tiktok"></i></a>
+      <div class="flex items-center gap-2">
+        <a
+          href="#"
+          class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"
+        >
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="#"
+          class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="#"
+          class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          href="#"
+          class="w-14 h-14 rounded-[50%] text-3xl text-center leading-[55px] bg-white text-[#ff2c1f] border-4 border-solid border-[#02030766] transition-all ease-linear duration-200 hover:bg-[#ff2c1f] hover:text-white"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
       </div>
     </section>
     <!-- footer -->
     <!-- copyrights -->
     <div class="copy text-center text-white text-base">
-      <p>&#169; <span class="cursor-pointer text-[#ff2c1f]">Web Masters</span> All Right Reserved.</p>
+      <p>
+        &#169;
+        <span class="cursor-pointer text-[#ff2c1f]">Web Masters</span> All Right
+        Reserved.
+      </p>
     </div>
     <!-- copyrights -->
     <script src="js/main.js"></script>
